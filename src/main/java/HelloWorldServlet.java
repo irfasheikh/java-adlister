@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 //annotation goes here to annotate the whole thing
-@WebServlet(name = "HelloWorld", urlPatterns = "/hello")  // metadata to go along with our servlet
+@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")  // metadata to go along with our servlet
 public class HelloWorldServlet extends HttpServlet { //defining the class name / extending HttpServlet
 
 
