@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Random;
 
-@WebServlet(name = "ControllerServlet", urlPatterns = "/game")
+@WebServlet(name = "ControllerServlet", urlPatterns = "/guess")
 
 public class ControllerServlet extends HttpServlet {
 
